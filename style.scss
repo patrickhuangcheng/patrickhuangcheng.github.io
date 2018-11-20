@@ -13,6 +13,8 @@
 /* BASE RULES */
 /**************/
 
+$mono-color:#5cacee;
+
 html {
   font-size: 100%;
 }
@@ -20,7 +22,7 @@ html {
 body {
   background: $white;
   font: 18px/1.4 $helvetica;
-  color: #5cacee;
+  color: $darkGray;
 }
 
 .container {
