@@ -34,7 +34,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  color: #5cacee; /*$darkerGray;*/
+  color: $darkerGray;
   font-weight: bold;
 
   line-height: 1.7;
@@ -48,7 +48,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 30px;
-  color: $h1-color;
+  color: $mono-color; /*$h1-color;*/
   a {
     color: inherit;
   }
@@ -56,17 +56,17 @@ h1 {
 
 h2 {
   font-size: 24px;
-  color: $h2-color;
+  color: $mono-color; /*$h2-color;*/
 }
 
 h3 {
   font-size: 20px;
-  color: $h3-color;
+  color: $mono-color; /*$h3-color;*/
 }
 
 h4 {
   font-size: 18px;
-  color: $h4-color;
+  color: $mono-color; /*$h4-color;*/
 }
 
 p {
